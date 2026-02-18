@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button, select {
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    transition: background-color 0.2s;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
+
+.start {
+    background-color: green;
+}
+
+.end {
+    background-color: red;
+}
+
+.wall {
+    background-color: black;
+}
+
+.visited {
+    background-color: lightblue;
+}
+
+.path {
+    background-color: yellow;
+}
