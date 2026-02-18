@@ -4,6 +4,9 @@ An interactive web-based pathfinding visualizer built using HTML, CSS, and JavaS
 
 This project demonstrates how graph traversal algorithms work visually on a 20x20 grid.
 
+🔗 Live Demo: https://mrinalishh.github.io/Pathfinding-Visualizer/
+
+
 ---
 
 ## Features
